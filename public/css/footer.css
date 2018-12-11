@@ -1,0 +1,11 @@
+#footer{
+  width:100%; padding:0; margin:0;
+}
+#footer>*{
+  width:1000px;
+  margin:0 auto;
+  background-color:#DADADA;
+}
+#logo{
+  margin-left: 22%
+}
