@@ -66,7 +66,7 @@
 /*定制为你推荐部分的样式*/
 #recommend{
   width:915px;
-  border-color: 1px solid rgba(0, 0, 0, 0.125);
+  border-color: 3px solid rgba(0, 0, 0, 0.125);
   overflow:hidden;
 }
 #recommend>ul>li{

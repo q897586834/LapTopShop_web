@@ -15,8 +15,8 @@
       <h6><a class="small text-dark font-weight-bold" href="javascript:;">${subtitle}</a></h6>
       <div class="alert alert-secondary small" role="alert">
         <div>
-          <span>学员售价：</span>
-          <h2 class="d-inline text-primary font-weight-bold">¥${price.toFixed(2)}</h2>
+          <span>售价：</span>
+          <h2 class="d-inline text-danger font-weight-bold">¥${price.toFixed(2)}</h2>
         </div>
         <div>
           <span>服务承诺：</span>
@@ -29,7 +29,7 @@
     var html = "";
 
     for (var s of specs) {
-      html += `<a class="btn btn-sm btn-outline-secondary ${s.lid == lid ? 'active' : ''}" href="product_details.html?lid=${s.lid}">${s.spec}</a>`;
+      html += `<a class="btn btn-sm btn-outline-info ${s.lid == lid ? 'active' : ''}" href="product_details.html?lid=${s.lid}">${s.spec}</a>`;
     }
     div.children[4].children[1].innerHTML = html;
 
